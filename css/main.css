@@ -1,0 +1,90 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  z-index: 2;
+  color: #fff;
+  animation: text-appear .5s linear forwards;
+  animation-delay: .5s;
+  opacity: 0;
+  top: 180px;
+  Left: 80px;
+}
+
+#narwhal-body {
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
+  animation: offset 2s linear forwards;
+}
+
+#narwhal-eye {
+  animation: oppacity 2s linear forwards;
+  opacity: 0;
+}
+
+#rainbow-red {
+  stroke-dasharray: 1244px;
+  stroke-dashoffset: 1244px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 1484px;
+  stroke-dashoffset: 1484px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-green {
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-indigo {
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-violet {
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
+  animation: offset 2s linear forwards;
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes oppacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
