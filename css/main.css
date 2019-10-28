@@ -2,64 +2,64 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
-h1 {
-  z-index: 1;
+.title {
+  z-index: 2;
   color: #fff;
-  animation: oppacity 1s linear forwards;
-  opacity: 0;
-}
-
-#narwhal-body {
-  stroke-dasharray: 1982px;
-  stroke-dashoffset: 1982px;
-  animation: offset 1s linear forwards;
-}
-
-#narwhal-eye {
-  animation: oppacity 2s linear forwards;
   opacity: 0;
 }
 
 #rainbow-red {
+  animation: red 2s linear forwards;
   stroke-dasharray: 1244px;
-  stroke-dashoffset: 1244px;
-  animation: offset 2s linear forwards;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-orange {
-  stroke-dasharray: 1366px;
-  stroke-dashoffset: 1366px;
-  animation: offset 2s linear forwards;
+  animation: orange 2s linear forwards;
+  stroke-dasharray: 1367px;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-yellow {
+  animation: yellow 2s linear forwards;
   stroke-dasharray: 1484px;
-  stroke-dashoffset: 1484px;
-  animation: offset 2s linear forwards;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-green {
-  stroke-dasharray: 1596px;
-  stroke-dashoffset: 1596px;
-  animation: offset 2s linear forwards;
+  animation: green 2s linear forwards;
+  stroke-dasharray: 1597px;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-blue {
-  stroke-dasharray: 1705.479px;
-  stroke-dashoffset: 1705.479px;
-  animation: offset 2s linear forwards;
+  animation: blue 2s linear forwards;
+  stroke-dasharray: 1706px;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-indigo {
-  stroke-dasharray: 1812.502px;
-  stroke-dashoffset: 1812.502px;
-  animation: offset 2s linear forwards;
+  animation: indigo 2s linear forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 0;
 }
 
 #rainbow-violet {
+  animation: violet 2s linear forwards;
   stroke-dasharray: 1918px;
-  stroke-dashoffset: 1918px;
-  animation: offset 2s linear forwards;
+  stroke-dashoffset: 0;
+}
+
+#narwhal-body {
+  animation: body 1s linear forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 0;
+}
+
+#narwhal-eye {
+  animation: eye 1s linear forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
 
 @keyframes red {
