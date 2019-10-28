@@ -5,11 +5,11 @@ html {
 h1 {
   z-index: 2;
   color: #fff;
-  animation: text-appear .5s linear forwards;
+  animation: oppacity .5s linear forwards;
   animation-delay: .5s;
   opacity: 0;
   top: 180px;
-  Left: 80px;
+  left: 80px;
 }
 
 #narwhal-body {
